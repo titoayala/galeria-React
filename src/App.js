@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header titulo="Galería de Imágenes con React" />
       <Cards src="/imgs/dobleplay.jpg" title="JUGADA 1" descripcion="Jugada de doble play" />
       <Cards src="/imgs/outentercera.jpg" title="JUGADA 2" descripcion="Out esperado en tercera base" />
       <Cards src="/imgs/outrobando.jpg" title="JUGADA 3" descripcion="Out robando base" />
